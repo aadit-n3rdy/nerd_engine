@@ -18,6 +18,19 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="NerdEngine.h" />
+    <ClInclude Include="RenderData.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Structs.h" />
+    <ClInclude Include="Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{F1536AC6-C506-4366-8BDC-870DCBBE4003}</ProjectGuid>
@@ -138,19 +151,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\evolution\Component.h" />
-    <ClInclude Include="..\evolution\GameObject.h" />
-    <ClInclude Include="..\evolution\NerdEngine.h" />
-    <ClInclude Include="..\evolution\RenderData.h" />
-    <ClInclude Include="..\evolution\Renderer.h" />
-    <ClInclude Include="..\evolution\Scene.h" />
-    <ClInclude Include="..\evolution\Structs.h" />
-    <ClInclude Include="..\evolution\Window.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\evolution\main.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
