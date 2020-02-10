@@ -38,7 +38,7 @@ public:
 			for (int i = 0; i < 2 * radius + 1; i++)
 			{
 				double theta = 3.1415926 * i / radius;
-				glVertex2f((renderData.position.x + cos(theta) * radius) / (float)width, (renderData.position.x + sin(theta) * radius) / (float)height);
+				glVertex2f((renderData.position.x + cos(theta) * radius) / (float)width, (renderData.position.y + sin(theta) * radius) / (float)height);
 			}
 			glEnd();
 		}
